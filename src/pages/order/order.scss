@@ -1,0 +1,148 @@
+.main-order {
+    padding: 50px 80px 20px 80px;
+   
+    
+    .item-order {
+        background-color: #fff;
+        padding: 15px;
+        align-items: center;
+        border-bottom: 1px solid #bbbbbb;
+        border-radius: 7px;
+
+        .price-item-order {
+            font-size: 21px;
+            font-weight: 600;
+            color: #1677ff;
+            
+        }
+
+        .input-item-order {
+            width: 70px;
+            height: 30px;
+            text-align: center;
+            font-size: 15px;
+        }
+
+        .total-item-order {
+            font-size: 15px;
+            font-weight: 600;
+
+        }
+
+       
+    }
+
+    .item-order:first-child {
+        margin: 0;
+    }
+
+    .item-order:hover {
+        background-color: #fafafa;
+    }
+}
+
+.ant-result-title {
+    font-size:  30px !important;
+}
+
+.ant-result-icon {
+   margin-bottom: 40px !important;
+}
+
+.progress-order {
+    background-color: #fff;
+    padding: 30px 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
+@media (min-width: 759px) and (max-width:988px) { 
+    .lg-img {
+        width: 100px !important;
+    }
+
+    .lg-text {
+        font-size: 13px;
+    }
+
+    .lg-price {
+        font-size: 17px !important;
+       
+    }
+
+    .lg-input {
+        width: 60px !important;
+        margin-left: 80px;
+
+    }
+
+    .lg-col-price {
+        margin-left: 40px !important;
+    }
+ }
+
+
+ @media (min-width: 577px) and (max-width:758px) { 
+    .lg-img {
+        width: 60px !important;
+    }
+
+    .lg-text {
+        font-size: 12px;
+    }
+
+    .lg-price {
+        font-size: 15px !important;
+       
+    }
+
+    .lg-input {
+        width: 50px !important;
+        height: 25px !important;
+        margin-left: 40px;
+
+    }
+
+    .lg-col-price {
+        margin-left: 40px !important;
+    }
+
+    .lg-icon {
+        font-size: 23px !important;
+        margin-top: 5px;
+       
+    }
+ }
+
+ @media (min-width: 0px) and (max-width:576px) { 
+    .lg-img {
+        width: 60px !important;
+    }
+
+    .lg-text {
+        font-size: 10px;
+    }
+
+    .lg-price {
+        font-size: 15px !important;
+       
+    }
+
+    .lg-input {
+        width: 50px !important;
+        height: 25px !important;
+        margin-left: 40px;
+
+    }
+
+    .lg-col-price {
+        margin-left: 40px !important;
+    }
+
+    .lg-icon {
+        font-size: 23px !important;
+        margin-top: 5px;
+       
+    }
+ }

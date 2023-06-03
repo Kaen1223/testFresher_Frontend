@@ -1,0 +1,165 @@
+@import "react-image-gallery/styles/scss/image-gallery.scss";
+
+.book-page {
+   min-height: 100vh;
+   padding: 20px 30px;
+
+    .gallery-book {
+        cursor: pointer;
+
+    }
+
+    .main-bookpage {
+       padding: 100px;
+     
+      
+    }
+
+   
+}
+
+.button-props {
+    display: none;
+}
+
+.image-gallery-image {
+    height: 700px;
+    // border: 3px solid #dedede;
+    object-fit: cover !important;
+}
+
+.image-gallery-image:hover {
+    opacity: 0.9;
+}
+
+.active {
+  box-shadow: 0 1px 10px #1677ff;
+   
+}
+
+.image-bookpage:hover {
+    cursor: pointer;
+ 
+   
+}
+
+.rating-item-bookpage {
+    margin-bottom: 105px;
+    display: flex;
+    align-items:  center;
+   position: relative;
+
+    .item-sold {
+        margin-top: 5px;
+        margin-left: 20px;
+        color: #aaaaaa;
+    }
+}
+
+.author {
+    .main-author {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .line-auther {
+        font-size: 16px;
+        font-weight: 600;
+        color: #1677ff;
+    }
+}
+
+.text-book {
+    margin: 20px 0;
+    font-size: 35px;
+    color: #666666;
+}
+
+.price-book {
+    margin: 60px 0 40px 0;
+    padding: 40px;
+    background-color: #fafafa;
+    width: 70%;
+
+    h2 {
+        color: #1677ff;
+        font-size: 45px;
+        font-weight: 600;
+    }
+}
+
+.ship-book {
+    display: flex;
+    align-items: center;
+
+    .light-text {
+        font-size: 16px;
+        color: #aaaaaa;
+    }
+    
+    .icon-ship {
+      
+        margin-left: 50px;
+        font-size: 20px;
+        color: #1677ff;
+    }
+    .bold-text {
+        margin-top: 5px;
+        font-size: 17px;
+        font-weight: 400;
+    }
+}
+
+.quantity {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+
+    .text-quantity {
+        font-size: 16px;
+        color: #aaaaaa;
+    }
+
+    .btn-quantity {
+        margin-left: 70px;
+        display: flex;
+        
+        input {
+            width: 90px;
+            height: 40px;
+            border: 1px solid #aaaaaa;
+            text-align: center;
+            font-size: 18px;
+            font-weight: 400;
+         
+        }
+
+        button {
+            width: 40px;
+            border: 1px solid #aaaaaa;
+            cursor: pointer;
+            
+        }
+        button:hover {
+            opacity: 0.9;
+        }
+    }
+}
+
+.btn-buy {
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+
+    .btn-buy-now {
+        margin-left: 30px;
+        width: 120px;
+        height: 50px;
+    }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
