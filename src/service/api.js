@@ -1,6 +1,4 @@
-import { add } from 'lodash'
 import axios from '../utils/axios-customize'
-import { Avatar } from 'antd'
 
 export const fetchRegisterUser = (fullName , email , password , phone) => {
     return axios.post('/api/v1/user/register',{fullName , email , password , phone})
