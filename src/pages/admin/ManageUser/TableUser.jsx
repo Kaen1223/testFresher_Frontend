@@ -2,7 +2,6 @@ import { Table } from 'antd';
 import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { doChangePanaginate } from '../../../redux/tablePanaginate/tablePanaginateSlice';
-import { isArray } from 'lodash';
 import { fetchListUserPaganigate, fetchSortUserByEmail, fetchSortUserByName } from '../../../service/api';
 import { Button, Space } from 'antd';
 import { DownloadOutlined , SearchOutlined ,UserAddOutlined , ImportOutlined , RedoOutlined , DeleteOutlined ,LinkedinOutlined } from '@ant-design/icons';
